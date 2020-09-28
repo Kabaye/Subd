@@ -1,0 +1,36 @@
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (10, 1);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (8, 3);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (4, 3);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (2, 4);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (1, 5);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (5, 6);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (4, 7);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (1, 8);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (10, 9);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (2, 10);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (3, 1);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (6, 1);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (7, 1);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (9, 5);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (10, 5);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (1, 7);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (2, 7);
+insert into TOURISM.HIKE_TOURIST (TOURIST_ID, HIKE_ID)
+values (9, 7);

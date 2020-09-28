@@ -1,0 +1,10 @@
+insert into TOURISM.TOURIST (NAME, CURRENT_LEVEL) values ('Svyatoslav', 2);
+insert into TOURISM.TOURIST (NAME, CURRENT_LEVEL) values ('Victor', 3);
+insert into TOURISM.TOURIST (NAME, CURRENT_LEVEL) values ('Petr', 1);
+insert into TOURISM.TOURIST (NAME, CURRENT_LEVEL) values ('Vladimir', 2);
+insert into TOURISM.TOURIST (NAME, CURRENT_LEVEL) values ('Vladislav', 2);
+insert into TOURISM.TOURIST (NAME, CURRENT_LEVEL) values ('Artem', 1);
+insert into TOURISM.TOURIST (NAME, CURRENT_LEVEL) values ('Victor', 1);
+insert into TOURISM.TOURIST (NAME, CURRENT_LEVEL) values ('Irina', 3);
+insert into TOURISM.TOURIST (NAME, CURRENT_LEVEL) values ('Alexandra', 1);
+insert into TOURISM.TOURIST (NAME, CURRENT_LEVEL) values ('Alina', 3);

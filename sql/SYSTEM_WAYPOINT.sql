@@ -1,0 +1,10 @@
+insert into TOURISM.WAYPOINT ( COORDINATES, NAME) values ('Latitude: -20.17615, Longitude: -67.17464, Distortion: 1.14', 'Bolivia');
+insert into TOURISM.WAYPOINT ( COORDINATES, NAME) values ('Latitude: 50.71929, Longitude: -84.70755, Distortion: 2.49', 'Canada');
+insert into TOURISM.WAYPOINT ( COORDINATES, NAME) values ('Latitude: -9.97920, Longitude: -63.82060, Distortion: 1.03', 'Brasil');
+insert into TOURISM.WAYPOINT ( COORDINATES, NAME) values ('Latitude: -27.85978, Longitude: -50.02375, Distortion: 1.28', 'Brasil');
+insert into TOURISM.WAYPOINT ( COORDINATES, NAME) values ('Latitude: 41.29450, Longitude: 124.63674, Distortion: 1.77', 'China');
+insert into TOURISM.WAYPOINT ( COORDINATES, NAME) values ('Latitude: 0.52184, Longitude: 18.72255, Distortion: 1.00', 'DR Kongo');
+insert into TOURISM.WAYPOINT ( COORDINATES, NAME) values ('Latitude: 21.24135, Longitude: 89.33470, Distortion: 1.15', 'India');
+insert into TOURISM.WAYPOINT ( COORDINATES, NAME) values ('Latitude: 14.64972, Longitude: 34.67385, Distortion: 1.07', 'Sudan');
+insert into TOURISM.WAYPOINT ( COORDINATES, NAME) values ('Latitude: 72.47107, Longitude: -113.33918, Distortion: 11.02', 'Canada');
+insert into TOURISM.WAYPOINT ( COORDINATES, NAME) values ('Latitude: -41.08365, Longitude: 148.99165, Distortion: 1.76', 'Australia');
