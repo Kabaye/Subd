@@ -97,6 +97,15 @@ end;
 --6. Создайте триггер, который до выполнения обновления в таблице job столбца minsalary отменяет действие, сообщает об ошибке
 -- и создаёт запись в таблице temp_table c указанием "более 10%",
 -- если должностной оклад изменяется более чем 10% (увеличивается или уменьшается).
+create or replace procedure insert_into_temp_table (p_message in varchar)
+    is
+    pragma autonomous_transaction;
+begin
+    insert into TEMP_TABLE
+    values (p_message);
+    commit;
+end;
+
 create or replace trigger trg_job_changing_2
     before update of MINSALARY
     on JOB
@@ -107,7 +116,7 @@ declare
 begin
     new_var := abs((:NEW.MINSALARY * 100 / :OLD.MINSALARY) - 100);
     if new_var > 10 then
-        insert into TEMP_TABLE (MSG) values (temp_str);
+        insert_into_temp_table(temp_str);
         raise_application_error(-20010, 'ERROR: Changing minsalary more than 10%');
     end if;
 end;
